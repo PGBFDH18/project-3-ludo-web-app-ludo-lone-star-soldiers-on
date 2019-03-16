@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <RootNamespace>Ludo.API.Service</RootNamespace>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LudoGameLogic\LudoGameLogic.csproj" />
+    <ProjectReference Include="..\LudoModels\LudoApiModels.csproj" />
+  </ItemGroup>
+
+</Project>
